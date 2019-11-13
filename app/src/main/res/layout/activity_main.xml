@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sport_quiz"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myRadioGroup"
+        android:background="#03DAC6"
+        android:checkedButton="@+id/sound" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/_1_on_being_told_his_next_opponent_chuck_wepner_was_another_great_white_hope_which_boxer_replied_quot_that_s_the_only_hope_he_s_got_quot" />
+
+
+        <RadioButton
+            android:id="@+id/ali_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/muhammad_ali" />
+
+        <RadioButton
+            android:id="@+id/mike_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/mike_tyson" />
+
+        <RadioButton
+            android:id="@+id/joe_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/joe_fraizer" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/TextStyle"
+        android:text="@string/_2_which_of_the_following_palyers_have_scored_hatrick_in_the_spanish_la_liga_el_classico" />
+
+    <CheckBox
+        android:id="@+id/messi_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/lionel_messi" />
+
+    <CheckBox
+        android:id="@+id/drogba_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/didier_drogba" />
+
+    <CheckBox
+        android:id="@+id/ronaldo_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/cristiano_ronaldo" />
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myRadioGroup3"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#03DAC6"
+        android:checkedButton="@+id/sound" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/_3_which_of_the_following_clubs_has_never_been_relegated_from_the_english_premier_league" />
+
+
+        <RadioButton
+            android:id="@+id/chelsea_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/chelsea" />
+
+        <RadioButton
+            android:id="@+id/liverpool_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/liverpool" />
+
+        <RadioButton
+            android:id="@+id/arsenal_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/arsenal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:text="@string/_4_in_what_year_did_roman_abramovich_take_over_chelsea" />
+
+    <EditText
+        android:id="@+id/answer_text"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"
+        android:backgroundTint="#FFFFFF"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myRadioGroup2"
+        android:layout_marginBottom="16dp"
+        android:background="#03DAC6"
+        android:checkedButton="@+id/sound" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/_5_who_is_the_fastest_man_in_the_world"/>
+
+        <RadioButton
+            android:id="@+id/bolt_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/usain_bolt" />
+
+        <RadioButton
+            android:id="@+id/gatlin_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/justin_gatlin" />
+
+        <RadioButton
+            android:id="@+id/blake_rad_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle"
+            android:text="@string/yohan_blake" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        style="@style/TextStyle"
+        android:onClick="submitQuiz"
+        android:text="@string/submit" />
+
+
+</LinearLayout>
+
+</ScrollView>
